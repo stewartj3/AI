@@ -69,4 +69,3 @@ max_value_indices = Z.max(dim=1).indices
 # Calculate the error rate
 error_count = COUNT_NONZERO(max_value_indices - y)
 print(error_count.item() / y.size(0) * 100, 'percent errors,', error_count.item(), 'errors')
-
