@@ -51,7 +51,7 @@ A = CAT(
         X,
         # First Gaussian basis function, centered with a mean of 0 and a standard deviation of
         # 1 for each feature
-        (-(X ** 2) / T_TWO).exp(),
+        (-(X**2) / T_TWO).exp(),
     )
 )
 
